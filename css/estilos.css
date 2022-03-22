@@ -1,0 +1,46 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* . => Selector de Clase */
+.nav{
+    background-color: rgb(51, 48, 48);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
+
+/* # => Selector de IDs */
+#menu{
+    height: 65px;
+}
+
+.menu-item{
+    list-style-type: none;
+    font-size: 24px;
+    display: inline;
+    margin-right: 30px;
+}
+
+.menu-enlace{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-seleccionado{
+    font-weight: 900;
+}
+
+.container{
+    position: relative;
+    max-width: 1260px;
+    margin: 0 auto;
+}
