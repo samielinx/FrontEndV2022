@@ -1,0 +1,40 @@
+.nav{
+    background: orangered;
+    width: 50%;
+    height: 70px;
+}
+
+#noticias{
+    border: 1px solid black;
+    width: 80vw;
+    margin: 10px auto;
+    height: 30vh;
+    font-size: 16px;
+}
+
+.articulo{
+    background: red;
+    width: 5em;
+    height: 3em;
+    margin: 1em;
+}
+.rem{
+    background-color: yellowgreen;
+    width: 5rem;
+    height: 3rem;
+    margin: 1rem;
+}
+.em{
+    background-color: goldenrod;
+    width: 5em;
+    height: 3em;
+    margin: 1em;
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    background: rgb(226, 124, 124);
+}
