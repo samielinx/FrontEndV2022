@@ -1,0 +1,54 @@
+body{
+    height: 200vh;
+}
+
+.divStatic{
+    position: static;
+    width: 80vw;
+    height: 70px;
+    border: 1px solid palevioletred;
+    margin: 1rem auto;
+    padding: 1rem auto;
+}
+.divRelative{
+    position: relative;
+    width: 80vw;
+    height: 70px;
+    border: 1px solid orangered;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    top: 20px;
+    left: 20px;
+}
+.divFixed{
+    position: fixed;
+    width: 80vw;
+    height: 70px;
+    border: 1px solid orangered;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    top: 20px;
+    left: 20px;
+    z-index: 9;
+}
+
+.divAboslute{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 1px solid orangered;
+    margin: 1rem auto;
+    padding: 1rem auto;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.container{
+    position: static;
+    width: 80vw;
+    height: 100px;
+    border: 1px solid green;
+    margin: 1rem auto;
+    padding: 1rem auto;
+}
