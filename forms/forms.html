@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="menu.html" method="post">
+
+    
+        <div class="container">
+            <div>
+
+                <input type="text" required="true"
+                placeholder="Username" name="username">
+                
+                <input type="password" required="true"
+                placeholder="Password" name="pass">
+
+                <label for="fecha">Fecha de Nacimiento:</label>
+                <input type="date" name="fecha">
+
+                <label class="inline" for="sexo">Femenino: </label>
+                <input class="inline" type="radio" name="sexo">
+
+                <label class="inline" for="sexo">Masculino: </label>
+                <input class="inline" type="radio" name="sexo">
+
+                <p>Preferencias Musicales:</p>
+                <label class="inline" for="musica">Rock</label>
+                <input class="inline" type="checkbox" name="musica">
+                <label class="inline" for="musica">Metal</label>
+                <input class="inline" type="checkbox" name="musica">
+                <br>
+                <label class="inline" for="musica">Trap</label>
+                <input class="inline" type="checkbox" name="musica">
+                <label class="inline" for="musica">Hip-Hop</label>
+                <input class="inline" type="checkbox" name="musica">
+
+
+
+                <input type="submit" value="Enviar">
+
+            </div>
+            <div>2</div>
+        </div>
+
+
+    </form>
+</body>
+</html>
