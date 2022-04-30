@@ -21,10 +21,9 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 
-
 }
 
-input{
+input, select, button{
     display: block;
     padding: 5px;
     width: 250px;
@@ -32,6 +31,7 @@ input{
     border-radius: 5px;
     box-sizing: border-box;
     margin: 5px;
+    margin-bottom: 20px;
 }
 
 label, p{
@@ -39,9 +39,14 @@ label, p{
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
+    margin-bottom: 20px;
 }
 
 .inline{
     display: inline;
     width: auto;
+}
+
+textarea{
+    border: 1px solid black;
 }

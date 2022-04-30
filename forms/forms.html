@@ -42,10 +42,34 @@
 
 
 
-                <input type="submit" value="Enviar">
+                <button>Enviar</button>
 
             </div>
-            <div>2</div>
+            <div>
+
+                <input type="text" required="true"
+                placeholder="Direccion" name="dir">
+
+                <label for="comuna">Comuna:</label>
+                <select name="comuna" id="">
+                    <option value="">Curico</option>
+                    <option value="">Teno</option>
+                    <option value="">Romeral</option>
+                    <option value="">Molina</option>
+                </select>
+
+                <label for="archivo">Certificado:</label>
+                <input type="file" name="archivo" id="">
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Enviar">
+                
+                
+
+            </div>
+            
         </div>
 
 
