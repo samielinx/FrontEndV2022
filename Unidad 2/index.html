@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <script>
+        function Saludar(){
+            alert("Hola Mundo");
+        }
+    </script>
+
+    <button onclick="Saludar()">Saludar 2</button>
+    <button onclick="OculteParrafo()">Ocultar Parrafo</button>
+    <button onclick="ToggleMostrar()">Toggle Mostrar</button>
+
+    <h2>JavaScript</h2>
+    <p>JavaScript NO se descarga</p>
+    <p>Lenguaje Interpretado</p>
+    <p>El Navegador, Telefono, Tablet es capaz de leer JavaScript</p>
+    <p>Sensible a Mayusculas y Minusculas</p>
+    <p>Nombre Original: ECMASript</p>
+    <p>JAVA y JavaScript son Lenguajes de Programacion MUY diferentes</p>
+
+    <button type="button" 
+    onclick="document.getElementById('demo').innerHTML = 'Hola JavaScript'">
+        Saludar</button>
+    
+
+    <p id="demo">Hola</p>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
