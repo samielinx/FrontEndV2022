@@ -12,11 +12,6 @@ let num_3 = true;
 
 console.log(1 + "2");
 
-
-
-
-
-
 let estado = true;
 console.log(typeof(estado));
 
