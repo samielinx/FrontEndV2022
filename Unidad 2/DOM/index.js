@@ -50,16 +50,18 @@ rootCanciones.classList.add("mt-3")
 root.appendChild(rootCanciones)
 
 for (let index = 0; index < canciones.length; index++) {
+    
     const element = canciones[index]; 
     
     const div = document.createElement("div");
     div.className = "col-md-3"
     div.classList.add("card")
+    div.id = element.Nombre
     //div.style.height = "250px"
 
     //Nombre de la Cancion
     const name = document.createElement("h3");
-    name.className = "card-tittle";
+    name.className = "card-title";
     name.classList.add("text-center")
     name.innerHTML = element.Nombre
 
@@ -100,13 +102,39 @@ for (let index = 0; index < canciones.length; index++) {
         rating.appendChild(star)
     }
 
+    div.addEventListener("mouseenter", function(e){
+        div.classList.add("shadow")
+        console.log(e.target)
+    })
+
+    div.addEventListener("mouseleave", function(e){
+        div.classList.remove("shadow")
+        console.log(e.target)
+    })
+
+    const btnBorrar = document.createElement("button")
+    btnBorrar.className = "btn"
+    btnBorrar.classList.add("btn-outline-danger")
+    btnBorrar.innerHTML = "Borrar Cancion"
+    btnBorrar.classList.add("m-2")
+
+
+    btnBorrar.addEventListener("click", function(){
+        rootCanciones.removeChild(div)
+    })
+
+    //div.addEventListener("click", Alerta())
+
     div.appendChild(name)
     div.appendChild(artist);
     div.appendChild(img)
     div.appendChild(dur)
     div.appendChild(year)
     div.appendChild(rating)
+    div.appendChild(btnBorrar)
     rootCanciones.appendChild(div)
 }
 
-
+function Alerta(){
+    alert("Click en la Card")
+}
